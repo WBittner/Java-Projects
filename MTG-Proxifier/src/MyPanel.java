@@ -18,9 +18,9 @@ import javax.swing.JPanel;
 public class MyPanel extends JPanel
 {
 		public Image image;
-                public Card card;
+                public MyCard card;
 		
-                public MyPanel(Card c)
+                public MyPanel(MyCard c)
                 {
                     card = c;
                     setImage(card.getName());
@@ -47,7 +47,7 @@ public class MyPanel extends JPanel
 		{
 			return card.getName();
 		}
-		public Card getCard()
+		public MyCard getCard()
 		{
 			return card;
 		}

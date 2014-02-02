@@ -200,7 +200,7 @@ public class Proxifier// implements Printable
 	   			//put card on panel
 	   			for(int i = 0; i < number; i++)
 	   			{
-		   			Card card = new Card(cardName);
+		   			MyCard card = new MyCard(cardName);
 		   			JPanel op = card.getPanel();
 		            panel.add(op);
 	   			}
