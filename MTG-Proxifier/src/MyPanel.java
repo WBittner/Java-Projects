@@ -19,7 +19,6 @@ public class MyPanel extends JPanel
 {
 		public Image image;
                 public Card card;
-		
                 public MyPanel(Card c)
                 {
                     card = c;
